@@ -1,0 +1,38 @@
+.pizza {
+  display: flex;
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.pizza__image {
+  width: 100px;
+  height: 100px;
+}
+
+.pizza__info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.pizza__name { 
+	font-family: 'FreeMono',monospace;
+	font-size: 16px;
+  font-weight: 500;
+}
+
+.pizza__ingredients {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.pizza__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pizza__price {
+  font-size: 20px;
+  font-family: 'Luminari',fantasy;
+}

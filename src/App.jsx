@@ -2,9 +2,8 @@
 import './App.css'
 import Header from "./components/header/Header";
 import Form from "./components/Form/Form";
-// import Button from './components/Button/Button';
+import Menu from "./components/Menu/Menu";
 function App() {
-
 
 	return (
 		<div className='wrapper'>
@@ -14,13 +13,9 @@ function App() {
 				</h1>
 				<p className="sub-title">👋 Welcome! Please start by telling us your name:</p>
 				<Form className="login-form"></Form>
+				<Menu />
 			</main>
 		</div>
-		// <div>
-		// 	<h1>Hello world</h1>
-		// 	<Button text='button' type='submit' count='123' />
-		// </div>
-
 	)
 }
 

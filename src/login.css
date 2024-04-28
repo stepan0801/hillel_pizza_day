@@ -58,6 +58,7 @@ input:focus {
 
 .content {
   text-align: center;
+  
 }
 
 .title {
@@ -75,4 +76,5 @@ input:focus {
   align-items: center;
   justify-content: center;
   gap: 10px;
+	margin-bottom: 20px;
 }
