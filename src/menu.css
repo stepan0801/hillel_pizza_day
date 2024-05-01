@@ -36,3 +36,24 @@
   font-size: 20px;
   font-family: 'Luminari',fantasy;
 }
+
+.counter{
+	display: none;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.counter__action{
+	display: flex;
+	gap: 10px;
+}
+
+.counter__count{
+	display: inline-block;
+	border-radius: 15px;
+}
+
+.counter__value{
+	font-size: 20px;
+	align-self: center;
+}
