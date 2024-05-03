@@ -3,7 +3,6 @@ import './App.css'
 import Header from "./components/header/Header";
 import Form from "./components/Form/Form";
 import Menu from "./components/Menu/Menu";
-// import Counter from "./components/Counter/Counter";
 function App() {
 
 	return (
@@ -15,7 +14,6 @@ function App() {
 				<p className="sub-title">👋 Welcome! Please start by telling us your name:</p>
 				<Form className="login-form"></Form>
 				<Menu />
-				{/* <Counter /> */}
 			</main>
 		</div>
 	)
