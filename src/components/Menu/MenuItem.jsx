@@ -1,4 +1,3 @@
-// import Counter from "../Counter/Counter";
 import { useState } from "react";
 import Button from "../Button/Button";
 const MenuItem = ({ pizzas }) => {
