@@ -38,7 +38,7 @@ input:focus {
   min-height: 100vh;
 }
 
-.logo {
+.logo{
   text-decoration: none;
   font-size: 20px;
   color: rgb(68, 64, 60);
@@ -77,4 +77,21 @@ input:focus {
   justify-content: center;
   gap: 10px;
   margin-bottom: 20px;
+}
+
+.header__menu{
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+.menu__item{
+	text-decoration: none;
+	color: rgb(54, 52, 52);
+	font-size: 25px;
+}
+.menu__item:hover{
+	text-decoration: underline;
+}
+.active{
+	background-color: rgb(184, 167, 167);
 }
