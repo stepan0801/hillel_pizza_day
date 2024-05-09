@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 
-const Form = (props) => {
+const Login = (props) => {
 	const [userName, setUserName] = useState('')
 	const navigate = useNavigate()
 	const formSubmit = (e) => {
@@ -19,4 +19,4 @@ const Form = (props) => {
 	)
 }
 
-export default Form
+export default Login

@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom"
 import './App.css'
 import Header from "./components/header/Header";
-import Form from "./components/Form/Form";
-import Menu from "./components/Menu/Menu";
+import LoginPage from "./components/pages/LoginPage";
+import MenuPage from "./components/pages/MenuPage";
 function App() {
 
 	return (
@@ -14,8 +14,8 @@ function App() {
 				<p className="sub-title">👋 Welcome! Please start by telling us your name:</p>
 
 				<Routes>
-					<Route path="/authorize" element={<Form />} />
-					<Route path="/menu" element={<Menu />} />
+					<Route path="/authorize" element={<LoginPage />} />
+					<Route path="/menu" element={<MenuPage />} />
 				</Routes>
 			</main>
 		</div>
