@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom"
 import './App.css'
 import Header from "./components/header/Header";
-import LoginPage from "./components/pages/LoginPage";
-import MenuPage from "./components/pages/MenuPage";
+import LoginPage from "/src/pages/LoginPage";
+import MenuPage from "/src/pages/MenuPage";
 function App() {
 
 	return (

@@ -1,9 +1,7 @@
-import Menu from "../Menu/Menu";
+import Menu from "../components/Menu/Menu";
 const MenuPage = () => {
 	return (
-		<>
-			<Menu />
-		</>
+		<Menu />
 	)
 }
 

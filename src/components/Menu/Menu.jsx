@@ -12,7 +12,6 @@ const Menu = () => {
 				if (!res.ok) throw new Error('failed to fetch')
 				const data = await res.json()
 				setMenu(data.data)
-				console.log(data);
 			} catch (error) { console.log(error.message) }
 		}
 		getAllPizzas()

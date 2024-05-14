@@ -1,10 +1,13 @@
-import { useState } from "react";
+
+import { useContext } from "react"
+import { LoginContext } from "../../pages/LoginPage"
 import { useNavigate } from "react-router-dom";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 
 const Login = (props) => {
-	const [userName, setUserName] = useState('')
+
+	const data = useContext(LoginContext)
 	const navigate = useNavigate()
 	const formSubmit = (e) => {
 		e.preventDefault()
@@ -13,7 +16,7 @@ const Login = (props) => {
 
 	return (
 		<form onSubmit={formSubmit} className={props.className}>
-			<Input type="text" placeholder="Your full name" value={userName} onchange={e => setUserName(e.target.value)}></Input>
+			<Input type="text" placeholder="Your full name" value={data.userName} onchange={data.onchange}></Input>
 			<Button type='submit' text='Login' />
 		</form>
 	)
