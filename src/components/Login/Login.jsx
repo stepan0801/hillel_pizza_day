@@ -1,6 +1,6 @@
 
 import { useContext } from "react"
-import { LoginContext } from "../../pages/LoginPage"
+import { LoginContext } from "../../context/LoginContext"
 import { useNavigate } from "react-router-dom";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
