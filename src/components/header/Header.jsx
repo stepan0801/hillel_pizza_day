@@ -9,6 +9,7 @@ const Header = () => {
 			<nav className="header__menu">
 				<NavLink className="menu__item" to="/authorize">authorize</NavLink>
 				<NavLink className="menu__item" to="/menu">menu</NavLink>
+				<NavLink className="menu__item" to="/order">order</NavLink>
 			</nav>
 			<form>
 				<Input placeholder="Search for the order #" />

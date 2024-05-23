@@ -3,6 +3,7 @@ import './App.css'
 import Header from "./components/header/Header";
 import LoginPage from "/src/pages/LoginPage";
 import MenuPage from "/src/pages/MenuPage";
+import OrderPage from "/src/pages/OrderPage";
 function App() {
 
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Routes>
 					<Route path="/authorize" element={<LoginPage />} />
 					<Route path="/menu" element={<MenuPage />} />
+					<Route path="/order" element={<OrderPage />} />
 				</Routes>
 			</main>
 		</div>

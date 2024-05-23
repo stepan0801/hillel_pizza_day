@@ -1,0 +1,45 @@
+.order{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.order__title{
+	align-self: flex-start;
+	font-family: Roboto Mono, monospace;
+	font-size: 18px;
+	line-height: 1.2;
+	color: rgb(68, 64, 60);
+}
+.order__user-name{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+}
+.order__phone-number{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+}
+.order__email{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+}
+.order__priority{
+	display: flex;
+	align-self: center;
+	gap: 10px;
+	font-family: Roboto Mono, monospace;
+	font-size: 16px;
+	line-height: 1.2;
+	color: rgb(68, 64, 60);
+}
+.order__to-buy{
+	align-self: flex-start;
+}
+.order__to-buy button{
+	border-radius: 10px;
+}
